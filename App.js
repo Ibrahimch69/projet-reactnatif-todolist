@@ -3,18 +3,6 @@ import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View, Image , Button, TextInput , Modal, ImageBackground} from 'react-native';
 
 export default function App() {
-  const sampleGoals = [
-    "Faire les courses",
-    "Aller à la salle de sport 3 fois par semaine",
-    "Monter à plus de 5000m d altitude",
-    "Acheter mon premier appartement",
-    "Perdre 5 kgs",
-    "Gagner en productivité",
-    "Apprendre un nouveau langage",
-    "Faire une mission en freelance",
-    "Organiser un meetup autour de la tech",
-    "Faire un triathlon",
-  ];
   const [goals, setGoals] = useState([]);
   const [newGoal, setNewGoal] = useState('');
   const [modalVisible, setModalVisible] = useState(false);
